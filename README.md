@@ -1,11 +1,8 @@
 # typescript-sandbox
 
-Para la parte de cada módulo en la que te planteamos ejercicios con JavaScript puedes usar este sandbox.
+A continuación en el main.ts hacemos unos comentarios explicando lo que vamos a hacer.
+Seguida mente, mostramos a través de la consola la operación en la que incluimos un breve texto,
+en donde nos indica que cada persona pagará "x" cantidad habiendo descontado las bebidas porque
+las invitaba el anfitrión.
 
-Pasos:
 
-- Clonate el proyecto.
-- Instala las dependencias con `npm install`.
-- Ejecuta el sandbox con `npm run dev`.
-- Abre el navegador en `http://localhost:5173/` (si ese puerto no te funciona, mira en la consola donde has hecho el build, puede que este ocupado y se haya abierto en otro puerto).
-- Puedes empezar a meter tu código en el fichero:
