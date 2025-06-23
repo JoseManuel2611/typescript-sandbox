@@ -6,3 +6,4 @@ en donde nos indica que cada persona pagará "x" cantidad habiendo descontado la
 las invitaba el anfitrión.
 
 
+![image](https://github.com/user-attachments/assets/ee6c9dda-e07b-4809-a33d-e2b96ff64d26)
