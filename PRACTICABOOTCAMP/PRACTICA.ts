@@ -14,6 +14,8 @@ console.log(nombre);
 //ejercicio
 let age: string | null = null; //Definición de variable de tipo string o null
 age = "No te lo digo"; //Asignar un valor de tipo string, esto debería dar error en TypeScript
+
+Esto es para practicar el uso de variables y tipos de datos en TypeScript
 */
 
 
