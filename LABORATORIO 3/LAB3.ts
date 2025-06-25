@@ -48,3 +48,11 @@ const grupo5 : Grupo = {
     Activo: true,
     Genero: `${Rock}`,
 };
+
+// Mostrar los grupos musicales en consola
+console.log("%cGrupos musicales:", "color: black; font-size: 20px; font-weight: bold; font-style: italic;");
+console.log(grupo1);
+console.log(grupo2);
+console.log(grupo3);
+console.log(grupo4);
+console.log(grupo5);
