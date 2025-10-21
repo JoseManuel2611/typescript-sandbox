@@ -1,35 +1,40 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Siete y Media</title>
-    <link rel="stylesheet" href="/JUEGO 7 y media/estilo-cartas.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Siete y Media</title>
+  <link rel="stylesheet" href="./estilo-cartas.css" />
 </head>
 <body>
-    <div id="juego-container">
-        <header>
-            <h1>Siete y Media 🃏</h1>
-        </header>
-        
-        <div id="puntuacion-display">
-            <h2>Puntuación: <span id="puntuacion">0</span></h2>
-        </div>
+  <div id="juego-container">
+    <header>
+      <h1>Siete y Media 🃏</h1>
+    </header>
 
-        <div id="carta-container">
-            <img id="carta-img" src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg" alt="Carta boca abajo">
-        </div>
+    <section id="puntuacion-display" aria-live="polite">
+      <h2>Puntuación: <span id="puntuacion">0</span></h2>
+    </section>
 
-        <div id="mensajes">
-            <p id="mensaje-juego"></p>
-        </div>
+    <section id="carta-container" aria-hidden="false">
+      <img id="carta-img"
+           src="https://raw.githubusercontent.com/Lemoncode/fotos-ejemplos/main/cartas/back.jpg"
+           alt="Carta boca abajo" />
+    </section>
 
-        <div id="controles">
-            <button id="pedir-carta">Pide Carta</button>
-            <button id="me-planto">¡Me Planto!</button>
-            <button id="nueva-partida" class="hidden">Nueva Partida</button>
-        </div>
-    </div>
+    <section id="mensajes" aria-live="polite">
+      <p id="mensaje-juego"></p>
+    </section>
 
-    <script src="/JUEGO 7 y media/funciones-cartas.js"></script> </body>
+    <nav id="controles">
+      <button id="pedir-carta" type="button">Pide Carta</button>
+      <button id="me-planto" type="button">¡Me Planto!</button>
+      <button id="nueva-partida" type="button" class="hidden">Nueva Partida</button>
+    </nav>
+  </div>
+
+  <!-- Cargar el JS compilado (debe existir funciones-cartas.js en la misma carpeta) -->
+  <script src="./funciones-cartas.js"></script>
+</body>
 </html>
